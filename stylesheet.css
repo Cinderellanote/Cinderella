@@ -1,0 +1,40 @@
+body{
+    font-family: "Hiragino Kaku Gothic Pro";
+}
+
+li{
+    list-style: none;
+}
+
+.main{
+    padding: 100px 80px;
+}
+
+.copy-container h1{
+    font-size: 110px;
+    color: #8ac6d1;
+
+}
+
+.copy-container h2{
+    font-size: 50px;
+    color: darkgrey;
+}
+
+.input{
+    width: 600px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 100px;
+    font-size: 60px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-form{
+    padding-top: 100px;
+}
+
+.contact-submit{
+    background-color: #dee7ec;
+  color: #889eab;
+}
