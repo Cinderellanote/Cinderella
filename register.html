@@ -3,40 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>アカウント登録</title>
+    <meta name="google" value="notranslate">
+    <title>Sign up</title>
     <link rel="stylesheet" href="register.css">
+    <link rel="stylseet" href="maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo">シンデレラアプリ</div>
+    <header>
+            <div class="header-left">
+                <h1 class="header-logo">Cinderella App</h1>
+            </div>
+            <div class="header-right">
+                <a href="#" class="login">ログイン</a>
+            </div>
+    </header>
+
+
+    <div class="form-wrapper">
+        <div class="container">
+            <form>
+                <h1>Sign up</h1>
+                <div class="form-items">
+                    <div class="form-item">
+                        <p class="username"><input placeholder="User Name"></p>
+                    </div>
+                    <div class="form-item">
+                        <p class="birthday"><input placeholder="Birthbay yyyy/mm/dd"></p>
+                    </div>
+                    <div class="form-item">
+                        <p class="mail"><input placeholder="e-mail"></p>
+                    </div>
+                    <div class="form-item">
+                        <p class="number"><input placeholder="Phone number"></p>
+                    </div>
+                    <div class="form-item">
+                        <p class="password"><input type="password" maxlength="10" placeholder="password(10 characters)"></p>
+                    </div>
+                    <div class="btn-wrapper">
+                        <a href="#" class="btn signup">Sign Up!</a>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 
-    <div class="main">
-        <div class="copy-container">
-            <h2>アカウント登録</h2>
-        </div>
-        <div class="contact-form">
-            <p>user name</p>
-            <input>
-
-            <p>Birthday</p>
-            <input>
-
-            <p>e-mail</p>
-            <input>
-
-            <p>phone number</p>
-            <input>
-
-            <p>password</p>
-            <input>
-            <p></p>
-            <input class="contact-submit" type="submit" value="登録">
-        </div>
-    </div>
 
     <div class="footer">
-        <div class="footer-logo">シンデレラアプリ</div>
+        <div class="footer-logo">Cinderella App</div>
         <div class="footer-list">
           <ul>
             <li>研究内容</li>
