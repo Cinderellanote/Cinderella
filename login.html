@@ -3,34 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" value="notranslate">
     <title>Login</title>
     <link rel="stylesheet" href="login.css">
+    <link rel="stylsheet" href="maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="header">
-        <div class="header-logo">シンデレラアプリ</div>  
-    </div>
-    <div class="main">
-        <div class="copy-container">
-            <h1>Cinderella App</h1>
-            <h2>なりたい自分を叶えるシンデレラアプリへようこそ</h2>
+    <header>
+        <div class="header-left">
+            <h1 class="header-logo">Cinderella App</h1>  
         </div>
-        <div class="contact-form">
-        ID
-        <!-- <input>要素を追加してください -->
-        <input><p></p>
-        
-        パスワード
-        <!-- <input>要素を追加してください -->
-        <input><p></p>
-        
-        <input class="contact-submit" type="submit" value="ログイン">
-        <p></p>
-        <input class="contact-submit" type="submit" value="新規">
+    </header>
+
+    <div class="form-wrapper">
+        <div class="container">
+            <form>
+                <h1>Login</h1>
+                 <div class="form-items">
+                     <div class="form-item">
+                         <p class="ID"><input placeholder=" ID"></p>
+                     </div>
+                     <div class="form-item">
+                         <p class="password"><input type="password" maxlength="10" placeholder=" password"></p>
+                     </div>
+                     <div class="btn-wrapper">
+                         <a href="#" class="btn login">Login</a>
+                     </div>
+                     <div class="mj-wrapper">
+                         <a href="#" class="forget">パスワードを忘れた方はこちら</a>
+                     </div>
+                 </div>
+            </form>
         </div>
     </div>
+    
     <div class="footer">
-        <div class="footer-logo">シンデレラアプリ</div>
+        <div class="footer-logo">Cinderella App</div>
         <div class="footer-list">
           <ul>
             <li>研究内容</li>
