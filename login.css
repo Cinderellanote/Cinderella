@@ -8,8 +8,11 @@ header{
     z-index: 10px;
 }
 
-.container {
+body{
     width: 100%;
+}
+
+.container {
     padding: 0 15px;
     margin: 0 auto;
 }
