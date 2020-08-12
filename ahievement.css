@@ -1,18 +1,40 @@
-.header{
-    background-color: #bbded6;
-    color: #fff;
+header{
     height: 90px;
+    width: 100%;
+    background-color: #bbded6;
+    color:#fff;
+    position: fixed;
+    top: 0;
+    z-index: 10px;
+}
+
+.header-left{
+    float: left;
+    width: 400px; 
+    margin: 0 20px;
 }
 
 .header-logo{
-    float: left;
     font-size: 36px;
     padding: 20px 40px;
 }
 
-.header-list li{
-    float: left;
-    padding: 33px 20px;
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+    font-size: 20px;
+    line-height: 90px;
+    padding: 0 30px;
+    color: white;
+    display: block;
 }
 
 body{
@@ -23,8 +45,10 @@ li{
     list-style: none;
 }
 
-.main{
-    padding: 100px 80px;
+.form-wrapper{
+    padding: 150px 0 50px 0;
+    text-align: center;
+    color: #cccccc;
 }
 
 .copy-container h1{
@@ -40,7 +64,7 @@ li{
 }
 
 .contact-form{
-    padding-top: 100px;
+    padding: 50px;
     text-align: center;
 }
 
