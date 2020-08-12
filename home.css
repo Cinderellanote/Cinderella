@@ -1,0 +1,97 @@
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #bbded6;
+    color:#fff;
+    position: fixed;
+    top: 0;
+    z-index: 10px;
+}
+
+.header-left{
+    float: left;
+    width: 400px; 
+    margin: 0 20px;
+}
+
+.header-logo{
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+    font-size: 20px;
+    line-height: 90px;
+    padding: 0 30px;
+    color: white;
+    display: block;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic Pro";
+}
+
+li{
+    list-style: none;
+}
+
+.form-wrapper{
+    padding: 150px 0 50px 0;
+    text-align: center;
+    color: #cccccc;
+}
+
+.box27 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #bbded6;
+}
+.box27 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #bbded6;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.box27 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.footer{
+    background-color: #8ac6d1;
+    color: white;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo{
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    padding-bottom: 20px;
+}
