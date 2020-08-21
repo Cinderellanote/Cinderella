@@ -57,6 +57,7 @@ li{
     padding: 0.5em 1em;
     border: solid 3px #bbded6;
 }
+
 .box27 .box-title {
     position: absolute;
     display: inline-block;
@@ -72,6 +73,65 @@ li{
     border-radius: 5px 5px 0 0;
 }
 .box27 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.profile.icon {
+    color: #cccccc;
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 11px;
+    width: 14px;
+    height: 6px;
+    border-left: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    border-top: solid 1px currentColor;
+    border-bottom: solid 1px transparent;
+    border-radius: 6px 6px 0 0;
+}
+  
+.profile.icon:before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: -10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: solid 1px currentColor;
+}
+
+.uname{
+    float: left;
+    margin: 0 30px;
+    font-size: 17px;
+    color: #cccccc;
+}
+
+.box26 {
+    position: relative;
+    margin: 50px 0;
+    padding:  20px 10px;
+    height: 100px;
+    width: 750px;
+    border: solid 2px #bbded6;
+    border-radius: 8px;
+    float: right;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 20px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 17px;
+    background: #FFF;
+    color: #bbded6;
+    font-weight: bold;
+}
+.box26 p {
     margin: 0; 
     padding: 0;
 }
