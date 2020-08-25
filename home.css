@@ -94,11 +94,48 @@ li a.active{
     color: white;
 }
 
+.menu-left{
+    width: 50%;
+    float: left;
+}
+
+.profile.icon{
+    color: #cccccc;
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 11px;
+    width: 14px;
+    height: 6px;
+    border-left: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
+    border-radius: 6px 6px 0 0;
+}
+
+.profile.icon:before{
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: -10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+}
+
+.uname{
+    float: left;
+    margin: 0 30px;
+    font-size: 17px;
+    color: #cccccc;
+}
+
 .box1{
     position: relative;
     margin: 50px 20px;
     padding: 20px 10px;
-    height: 300px;
+    height: 400px;
     width: 600px;
     border:2px solid #bbded6;
     border-radius: 8px;
@@ -121,6 +158,11 @@ li a.active{
 .box1 p{
     margin: 0;
     padding: 0;
+}
+
+.menu-right{
+    width: 50%;
+    float: right;
 }
 
 .box2{
@@ -152,6 +194,35 @@ li a.active{
     padding: 0;
 }
 
+
+.box3{
+    position: relative;
+    margin: 50px 20px;
+    padding: 20px 10px;
+    height: 100px;
+    width: 600px;
+    border:2px solid #bbded6;
+    border-radius: 8px;
+    float: right;
+}
+
+.box3 .box-title{
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 20px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 17px;
+    background: #fff;
+    color: #bbded6;
+    font-weight: bold;
+}
+
+.box3 p{
+    margin: 0;
+    padding: 0;
+}
 
 @media screen and (max-width: 480px) {
 	ul.topnav li.right, ul.topnav li {
