@@ -17,8 +17,8 @@ document.getElementById("submit").addEventListener("click", function () {
   //入力が空だった場合と、文字数制限を超えた場合にアラートを出す。
   if (result == "") {
     alert("入力してください");
-  } else if (result.length > 21) {
-    alert("20文字以下で入力してください");
+  } else if (result.length > 31) {
+    alert("30文字以下で入力してください");
 
     //上記の場合以外はリストを追加する。
   } else {
