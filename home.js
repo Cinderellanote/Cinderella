@@ -2,12 +2,12 @@
 var number = 0;
 
 //追加ボタンでリストを追加する
-document.getElementById("submit").addEventListener("click", function () {
+document.getElementById("submit1").addEventListener("click", function () {
   number++;
-  var input1 = document.querySelector("#input1");
+  var input1 = document.querySelector("#input12");
   var result = input1.value;
   var checkbox = document.createElement("input");
-  checkbox.className = "custom-control-input";
+  checkbox.className = "custom-control-input1";
   checkbox.setAttribute("type", "checkbox");
 
   var checkboxdiv = document.createElement("div");
@@ -38,25 +38,25 @@ document.getElementById("submit").addEventListener("click", function () {
     deleteButton.innerHTML = "削除";
 
     var deletediv = document.createElement("div");
-    deletediv.className = "col-xs-3";
+    deletediv.className = "col-xs-31";
     deletediv.appendChild(deleteButton);
 
     var div = document.createElement("div");
     var todolist = "todolist" + number;
-    div.className = "row";
+    div.className = "row1";
     div.setAttribute("id", todolist);
     div.setAttribute("value", number);
     div.appendChild(checkboxdiv);
     div.appendChild(listdiv);
     div.appendChild(deletediv);
 
-    document.getElementById("todolist_unit").appendChild(div);
+    document.getElementById("todolist_unit1").appendChild(div);
 
     //区切り線を引く。
     var line = document.createElement("hr");
     var listline = "listline" + number;
     line.setAttribute("id", listline);
-    document.getElementById("todolist_unit").appendChild(line);
+    document.getElementById("todolist_unit1").appendChild(line);
 
     //フォーム入力し、追加ボタンを押したらフォームをクリアする。
     var reset = document.getElementById("input1");
