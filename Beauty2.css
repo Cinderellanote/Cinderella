@@ -96,7 +96,7 @@ li a.active{
 
 .box1{
     position: relative;
-    margin: 50px 20px;
+    margin: 50px 20px 20px;
     padding: 20px 10px;
     height: auto;
     width: 600px;
@@ -125,7 +125,7 @@ li a.active{
 
 .box2{
     position: absolute;
-    margin: 250px 20px 0;
+    margin: 430px 20px 20px;
     padding: 20px 10px;
     height: auto;
     width: 600px;
@@ -153,8 +153,8 @@ li a.active{
 }
 
 .box3{
-    position: absolute;
-    margin: 450px 20px 0;
+    position: relative;
+    margin: 50px 20px 0;
     padding: 20px 10px;
     height: auto;
     width: 300px;
@@ -182,8 +182,8 @@ li a.active{
 }
 
 .root{
-    position: absolute;
-    margin: 450px 0 0 380px;
+    position: relative;
+    margin: 40px 0 0 30px;
     padding: 20px 10px;
     font-size: 17px;
     font-weight: bold;
