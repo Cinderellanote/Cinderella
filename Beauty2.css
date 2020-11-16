@@ -96,6 +96,7 @@ li a.active{
 
 .box1{
     position: relative;
+    clear: left;
     margin: 50px 20px 20px;
     padding: 20px 10px;
     height: auto;
@@ -124,8 +125,9 @@ li a.active{
 }
 
 .box2{
-    position: absolute;
-    margin: 430px 20px 20px;
+    position: relative;
+    clear: left;
+    margin: 40px 20px 20px;
     padding: 20px 10px;
     height: auto;
     width: 600px;
@@ -181,16 +183,6 @@ li a.active{
     padding: 0;
 }
 
-.root{
-    position: relative;
-    margin: 40px 0 0 30px;
-    padding: 20px 10px;
-    font-size: 17px;
-    font-weight: bold;
-    float: left;
-    color: #bbded6;
-}
-
 .todolist_unit {
     margin: 0px 0px 0px 0px;
 }
@@ -244,6 +236,72 @@ button {
     padding: 22px 10px;
     border-radius: 10px;
     border-color: #8ac6d1;
+}
+
+.todolist_unit2 {
+    margin: 0px 0px 0px 0px;
+}
+
+.custom-control-input2 {
+    margin: 20px 20px !important;
+    padding: 20px 20px !important;
+    transform: scale(1.7)!important;
+}
+
+.form-control2 {
+    font-size: 18px;
+    margin: 10px 0px 5px 5px;
+    padding: 22px 10px;
+    border-radius: 10px;
+    border-color: #8ac6d1;
+}
+
+.box4{
+    position: relative;
+    margin: 50px 20px 0;
+    padding: 20px 10px;
+    height: auto;
+    width: 300px;
+    border:2px solid #bbded6;
+    border-radius: 8px;
+    float: left;
+}
+
+.box4 .box-title{
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 20px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 17px;
+    background: #fff;
+    color: #bbded6;
+    font-weight: bold;
+}
+
+.box4 p{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #7c817d;
+}
+
+#btn_id{
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #FCAA00;
+    border-radius: 20px;
+    box-shadow: 4px 4px #e79d08;
+    margin: 30px auto 0 auto;
+
 }
 
 @media screen and (max-width: 480px) {
